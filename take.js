@@ -129,4 +129,4 @@ axios.get(`https://api.trello.com/1/boards/${boardId}/cards?key=${apiKey}&token=
   });
   app.use(express.static('public'));
   module.exports = app;
-  //app.listen(port, () => console.log(`Server running at http://localhost:${port}`));
+  app.listen(port, () => console.log(`Server running at http://localhost:${port}`));
